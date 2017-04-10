@@ -3,6 +3,9 @@
 MESOSDIR=/var/lib/mesos/dl
 mkdir $MESOSDIR
 
+JUDIR=/var/juliens
+mkdir $JUDIR
+
 # load the env vars
 . /etc/mesosphere/setup-flags/dcos-deploy-environment
 
